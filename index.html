@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Hendi</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+ <!-- ===== HEADER ===== -->
+<header class="header">
+  <!-- LOGO -->
+  <div class="logo">
+    <img src="images/logo.jpg" alt="Logo">
+  </div>
+
+  <!-- NAVIGASI -->
+  <nav class="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About&nbsp;Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#message">Message&nbsp;Us</a>
+  </nav>
+</header>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="home">
+    <div class="container">
+
+      <!-- Banner 1366 × 578 (atau ganti sendiri) -->
+      <img src="images/banner.jpg" alt="Banner" class="banner" />
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ME ===== -->
+  <section id="about" class="about">
+    <div class="container about-content">
+      <h2 class="about-title">About Me</h2>
+
+      <p class="about-text">
+        Halo! Saya <strong>Hendi</strong>, mahasiswa Sistem Informasi yang
+        antusias mempelajari <em>web development</em> dan <em>UI/UX design</em>.
+        Saat ini saya fokus membangun portofolio menggunakan HTML, CSS,
+        dan desain prototipe di Figma.
+      </p>
+
+      <ul class="about-info">
+        <li><span>Nama</span>: Suhendi</li>
+        <li><span>Domisili</span>: Tangerang, Indonesia</li>
+        <li><span>Minat</span>: Front‑End, UI Design</li>
+      </ul>
+
+      <h3 class="skill-heading">Skills</h3>
+
+      <div class="skill"><span>HTML / CSS</span><div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div></div>
+      <div class="skill"><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" style="width:40%"></div></div></div>
+      <div class="skill"><span>Figma</span><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+
+      <div class="projects">
+        <!-- gambar figma-->
+        <div class="card">
+          <img src="images/figma.jpg" alt="Figma Project" />
+          <h3>UI/UX Prototype</h3>
+          <p>Desain aplikasi e‑Wallet di Figma.</p>
+        </div>
+
+        <!-- gambar 2 -->
+        <div class="card">
+          <img src="images/webdev.jpg" alt="Web Dev Project" />
+          <h3>Web Development</h3>
+          <p>Landing page WordPress kustom.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MESSAGE US ===== -->
+  <section id="message" class="message">
+    <div class="container message-wrapper">
+      <!-- Form -->
+      <form id="contactForm" class="form">
+        <h2>Message Us</h2>
+
+        <label>Nama
+          <input type="text" name="nama" required />
+        </label>
+
+        <label>Tanggal Lahir
+          <input type="date" name="tgl" required />
+        </label>
+
+        <fieldset class="gender">
+          <legend>Jenis Kelamin</legend>
+          <label><input type="radio" name="gender" value="Laki‑Laki" required /> Laki‑Laki</label>
+          <label><input type="radio" name="gender" value="Perempuan" /> Perempuan</label>
+        </fieldset>
+
+        <label>Pesan
+          <textarea name="pesan" rows="4" required></textarea>
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- Output -->
+      <div id="output" class="output"></div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">Created By RevoU</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
