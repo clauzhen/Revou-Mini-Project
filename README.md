@@ -1,5 +1,4 @@
-#RevoU Mini Project – Portofolio Website
-
+RevoU Mini Project – Portofolio Website
 Website ini adalah mini project yang saya buat selama mengikuti program Coding Fundamental RevoU.
 
 #Deskripsi Proyek
